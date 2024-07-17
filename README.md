@@ -4,6 +4,8 @@ A typing speed test site with a fun and modern interface based on motivational q
 
 AI was also used in the development of the site. If you see unnecessary code blocks, please ignore them, I'm a bit of an amateur at this.
 
+Since the development priority is for 16:9 systems, it may not be possible to provide a stable interface on mobile phones and tablets.
+
 ![image](https://raw.githubusercontent.com/CoderYello/UltraType/main/screenshot.png)
 
 ## 🤝 Information about Contributions

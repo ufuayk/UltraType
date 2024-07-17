@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltraType</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <i class="fas fa-keyboard"></i>
+                <span>UltraType - Motivational Typing Speed Test</span>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun" id="theme-icon"></i>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="text-display" id="text-display"></div>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <textarea id="input-field" rows="3" placeholder="Start typing when you're ready..."></textarea>
+            <div class="stats">
+                <div class="stat-box">
+                    <i class="fas fa-clock"></i>
+                    <p>Time</p>
+                    <span id="time">0s</span>
+                </div>
+                <div class="stat-box">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <p>WPM</p>
+                    <span id="wpm">0</span>
+                </div>
+                <div class="stat-box">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Accuracy</p>
+                    <span id="accuracy">0%</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="start-btn" class="btn btn-primary"><i class="fas fa-play"></i> Start</button>
+                <button id="reset-btn" class="btn btn-secondary"><i class="fas fa-redo"></i> Reset</button>
+            </div>
+        </div>
+        <div class="results" id="results">
+            <h2>Test Results</h2>
+            <p>Your typing speed: <span id="final-wpm">0</span> WPM</p>
+            <p>Accuracy: <span id="final-accuracy">0</span>%</p>
+            <p>Time taken: <span id="final-time">0</span> seconds</p>
+            <div class="share-container">
+                <button id="share-btn" class="btn btn-primary"><i class="fas fa-share-alt"></i> Share Results</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

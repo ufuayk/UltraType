@@ -6,7 +6,7 @@ AI was also used in the development of the site. If you see unnecessary code blo
 
 Since the development priority is for 16:9 systems, it may not be possible to provide a stable interface on mobile phones and tablets.
 
-![image](https://raw.githubusercontent.com/CoderYello/UltraType/main/screenshot.png)
+![image](https://raw.githubusercontent.com/ufuayk/UltraType/main/screenshot.png)
 
 ## 🤝 Information about Contributions
 
@@ -14,7 +14,7 @@ I look forward to your contributions on this topic in order to increase the numb
 
 ## 👷🏻‍♂️ Base Author
 
-• [@Yello](https://www.github.com/CoderYello) for design and development.
+• [@ufuayk](https://www.github.com/ufuayk) for design and development.
 
 ## 📑 License
 
